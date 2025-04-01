@@ -7,9 +7,9 @@ La branch main está vacía, cada branch contiene ejemplos de distintas features
 
 Setup básico de FastAPI con un modelo de Alumno en memoria.
 
-`basic-with-routers`
+`basic-with-structure`
 
-Setup básico de FastAPI con un modelo de Alumno en memoria pero separando los endpoints por recurso usando routers.
+Setup básico de FastAPI con un modelo de Alumno en memoria pero separando los endpoints por recurso usando routers y usando una capa de Database. Los datos se cargan de un CSV.
 
 `sql-model`
 
@@ -17,8 +17,4 @@ Setup con db connection a SQLite de un modelo de Alumno.
 
 `sql-model-with-relations`
 
-Setup con db connection a SQLite con modelos de Alumno y Grupo para representar relaciones 1:N
-
-`sql-model-with-relations-advanced`
-
-Setup con db connection a SQLite con modelos de Alumo, Grupo, Curso, Materia para representar relaciones N:M
+Setup con db connection a SQLite con modelos de Alumo, Grupo, Integrante para representar relaciones N:M
