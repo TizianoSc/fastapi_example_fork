@@ -18,3 +18,32 @@ Setup con db connection a SQLite de un modelo de Alumno.
 `sql-model-with-relations`
 
 Setup con db connection a SQLite con modelos de Alumo, Grupo, Integrante para representar relaciones N:M
+
+
+## Setup
+
+1. Setup pyenv
+```
+pyenv install 3.13.2
+```
+
+2. Crear venv usando pipenv 
+
+```
+pipenv shell
+```
+
+3. Instalar dependencias
+```
+pipenv install
+```
+
+## Correr servidor
+```
+python -m fastapi dev main.py
+```
+
+## Correr tests
+```
+python -m pytest tests/
+```
