@@ -1,8 +1,8 @@
-from fastapi import FastAPI
-
 from dependencies.dependencies import init_dep
+from fastapi import FastAPI
 from routes.routes import api_router
-from seed import seed
+
+from basic_with_multiple_models.seed import seed
 
 
 def main():

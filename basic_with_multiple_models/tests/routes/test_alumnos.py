@@ -1,12 +1,12 @@
 from unittest.mock import MagicMock
 
 import pytest
-from fastapi.testclient import TestClient
-
 from database.alumno import DBAlumnos
 from dependencies.dependencies import get_database_alumnos
-from main import app
+from fastapi.testclient import TestClient
 from models.alumno import Alumno
+
+from basic_with_multiple_models.main import app
 
 
 @pytest.fixture

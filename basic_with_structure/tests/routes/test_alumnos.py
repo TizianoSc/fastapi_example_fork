@@ -1,11 +1,11 @@
 from unittest.mock import MagicMock
 
-from fastapi.testclient import TestClient
-
 from database.database import Database
 from dependencies.dependencies import get_database
-from main import app
+from fastapi.testclient import TestClient
 from models.models import Alumno
+
+from basic_with_multiple_models.main import app
 
 client = TestClient(app)
 

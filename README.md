@@ -22,6 +22,8 @@ Setup con db connection a SQLite con modelos de Alumo, Grupo, Integrante para re
 
 ## Setup
 
+En cada directorio o rama, correr lo siguiente:
+
 1. Setup pyenv
 ```
 pyenv install 3.13.2
