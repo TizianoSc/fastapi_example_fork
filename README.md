@@ -1,7 +1,7 @@
 ## FastAPI Example
 Este repositorio es simplemente un ejemplo del uso de FastAPI para Introducción al Desarrollo de Software TB022 curso Esteban.
 
-La branch main está vacía, cada branch contiene ejemplos de distintas features.
+La branch main contiene 4 directorios con distintas versiones, cada una con ejemplos de distintas features. A su vez, estos cambios también se ven reflejados en cada branch homónima.
 
 `basic`
 
