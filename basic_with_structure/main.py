@@ -13,4 +13,5 @@ def main():
 app = FastAPI()
 app.include_router(api_router)
 
-main()
+if __name__ == "main":
+    main()
